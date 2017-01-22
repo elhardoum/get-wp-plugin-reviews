@@ -30,7 +30,8 @@ For the sake of simplicity, that's the information fetched from the review.
 https://github.com/elhardoum/get-wp-plugin-reviews.git`
 - Change directory to this project: `cd get-wp-plugin-reviews`
 - Now run `get.sh`, you'll be prompted to provide the plugin slug (not the plugin URL, just 
-the name of the plugin as in `https://wordpress.org/plugins/**plugin-slug**/`
+the name of the plugin as in 
+<code>https://wordpress.org/plugins/<strong>plugin-slug</strong>/</code>
 
 You'll also be prompted to wait couple seconds, it depends on how many reviews this plugin 
 has received, the more it got, the more time it will take to fetch them all, taking it easy 
