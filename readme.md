@@ -29,7 +29,9 @@ For the sake of simplicity, that's the information fetched from the review.
 - Clone this to your environment: `git clone 
 https://github.com/elhardoum/get-wp-plugin-reviews.git`
 - Change directory to this project: `cd get-wp-plugin-reviews`
-- Now run `get.sh`, you'll be prompted to provide the plugin slug (not the plugin URL, just 
+- Now run `get.sh`: `./get.sh`, you'll be prompted to provide the plugin slug (not the 
+plugin URL, 
+just 
 the name of the plugin as in 
 <code><span>https://</span>wordpress.org/plugins/<strong>plugin-slug</strong>/</code>
 
@@ -42,3 +44,4 @@ on the WordPress servers.
 All review data is stored in a JSON file, ..
 
 
+*more docs coming soon*
