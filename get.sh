@@ -33,7 +33,7 @@ getReview(){
 	tr '@' ' ' | tr '(' ' ' | tr ')' ' ' | awk '{$1=$1};1'
 	`
 
-	# troubleshooting: this response might be malformed for a json
+	# troubleshooting: this response might be malformed for a json output, as long as $text is not properly encoded
 	json='{"author": {"name": "'$author'", "avatar": "'$avatar'", "nicename": "'$nicename'"}, "stars": "'$stars'", "text": "'$text'"}'
 	
 	# print json
@@ -95,8 +95,12 @@ getLinks(){
 	done
 }
 
-echo -e "Hello, can you give me the plugin slug please?\n"
-read plugin
+if ! [ -z "$1" ]; then
+	plugin="$1"
+else
+	echo -e "Hello, can you give me the plugin slug please?\n"
+	read plugin
+fi
 
 if [ -z "$plugin" ]; then
 	echo "Uhm, forget it!"
