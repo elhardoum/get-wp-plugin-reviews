@@ -12,8 +12,8 @@ all the reviews that this plugin received.
 
 JSON information generated for reviews include:
 
-- Reviewer name: The display name of the WordPress.org user who did the review
-- Reviewer nicename (@slug): The user slug of the review author
+- **Reviewer name**: The display name of the WordPress.org user who did the review
+- *Reviewer nicename* (@slug): The user slug of the review author
 - Reviewer avatar URL: The avatar image `src` attribute, the URL you can use to display an 
 icon of the review author
 - Review star count: from `1` to `5`, the number of stars in the review
