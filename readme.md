@@ -41,4 +41,5 @@ You can add this to your `crontab` (`crontab -e`) and run the `get.sh` frequentl
 ## Thanks!
 
 Thank you for using this. Feel free to contribute and improve it.
+<br/>
 *I initially made this for a friend of mine to fetch their plugin and get fresh reviews on their website.*
